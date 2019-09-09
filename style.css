@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Special+Elite&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 2%;
+  font-size: 17px;
+  background-color:  #8dc78d;
+}
+
+h1 {
+    color: 	rgb(33, 90, 58);
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  margin-bottom: 1%;
+  font-size: 20px;
+}
+
+
+#t1{
+  display: none;
+}
+#t2{
+  display: none;
+}
+
+#cartolina{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: inline;
+}
+
+#img1, #img2, #img3{
+    height: 35%;
+    width: auto;
+    margin: 3%;
+    filter:drop-shadow(8px 8px 10px gray);
+    opacity: 1;
+}
+
+
+.intro{
+  text-align: center;
+  font-size: 20px;
+}
+
+#text{
+  margin-top: 3%;
+}
+
+#altreinfo{
+  text-align:center;
+  color: rgb(20, 59, 37);
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+  margin-top: 2%;
+  outline: none;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about{
+  font-size: 20px;
+}
+
+#postfront_1 , #postfront_2 , #postfront_3{
+  height: 50%;
+  width: auto;
+  margin: 2%;
+}
+
+#postretro_1 , #postretro_2, #postretro_3{
+  height: auto;
+  width: 40%;
+  margin: 2%;
+}
+
+#desc29,#desc50,#desc199{
+  font-size: 20px;
+  width: 85%;
+  height: auto;
+  margin-left: 5%;
+}
+
+#contents_1,#contents_2,#contents_3{
+  height: auto;
+  width: auto;
+  margin-left: 45%;
+  margin-top: -45%;
+}
+
+#postheader_1, #postheader_2, #postheader_3{
+  margin-top: 3%;
+  height:auto;
+  width: 100%;
+}
+
+#cartoline{
+  text-align: center;
+}
+
+#imgs{
+  display: none;
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #ff9d9d;
+}
+#description{
+  display: none;
+  width: auto;
+  height: auto;
+  background-color: #fa8c70;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

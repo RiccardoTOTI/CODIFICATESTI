@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO  -->
+                <title type="t1">Donna con cagnolino</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI" type="t2"> Unipi </orgName>
+                </publisher>
+            </publicationStmt>
+            
+            <!-- NOTE -->
+            <notesStmt xml:id="note50">
+                <note>Non è presente la data di stampa della cartolina.</note>
+                <note>Dal contenuto della cartolina non è possibile reperire alcune informazioni personali sul Mittente, come ad esempio il congnome.</note>
+                <note>Non sono presenti informazioni sull'editore e sul luogo di stampa.</note>
+            </notesStmt>
+
+            <!-- COMPILAZIONE -->
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#DC">[Donna con cagnolino]</title>
+                </bibl>
+
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_050_001/002</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+
+                    <!--CONDIZIONI FISICHE-->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+
+                                    <stamp type="postage">Francobollo - Poste Italiane 5 centesimi</stamp>
+                                    <stamp type="postmark">Timbro della città di Genova</stamp>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                </msDesc>
+
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giovanni</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+
+                    <person xml:id="AT">
+                        <persName>
+                            <forename>Antonietta</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+
+                </listPerson>
+
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+
+                    <place xml:id="GE">
+                        <placeName>Genova</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Genova</district>
+                        <district type="provincia">GE</district>
+                        <country key="N">IT</country>
+                    </place>
+
+                </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="G">Giovanni</persName>
+                    <placeName>Genova</placeName>
+                    <date type="postage" when="1913-05-31">1913/05/31</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="AT">Antonietta Turtura</persName>
+                    <placeName>Ravenna</placeName>
+                </correspAction>
+            </correspDesc>
+
+        </profileDesc>
+
+    </teiHeader>
+
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina50">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="frontedesc50">
+                <figure>
+                    <figDesc>Donna elegante ritratta con il suo cagnolino. L'immagine è in bianco e nero,
+                            potrebbe sembrare un semplice disegno ad olio. La donna porta
+                            un cappello a falda larga, capelli corti e riccioluti. Vestito leggero, probabilmente
+                            estivo. Il cagnolino è di taglia piccola, razza Yorkshire.</figDesc>
+                    <head>[Donna con cagnolino]</head>
+                </figure>
+            </div>
+
+            <div type="retro">
+                <div xml:id="id50">
+                    <p>
+                        <num>
+                            <idno> 50 </idno>
+                        </num>
+                    </p>
+                </div>
+
+                <div type="message">
+                    <div xml:id="mainTextmessage50" type="grasso">
+                        <salute>
+                            <s>
+                                <lb/>
+                                Saluti affetuosi a tutti
+                            </s>
+                        </salute>
+                        <signed>
+                            <s>
+                                <lb/>
+                                <persName ref="#G">Giovanni</persName>
+                            </s>
+                        </signed>
+                    </div>
+
+                    <div xml:id="date50">
+                        <dateline>
+                            <lb/>
+                            <placeName ref="#GE"> Genova </placeName>,
+                            <date when="1913-05-31">31/V-13</date>
+                        </dateline>
+                    </div>
+
+                    <div type="destination">
+                        <div xml:id="francobollo50">
+                            <p>
+                                <lb/>
+                                <stamp type="postmark">
+                                    <mentioned>
+                                        <placeName ref="#GE"> GENOVA </placeName>
+                                    </mentioned>
+                                    <date when="1924-05-31">1924/05/31</date>
+                                </stamp>
+                                <lb/>
+                                <stamp type="postage">Francobollo da 5 centesimi delle Poste Italiane</stamp>
+                            </p>
+                        </div>
+                        
+                        <div type="grasso">
+                        <p>
+                            <lb/>
+                            <address xml:id="address50">
+                                <addrLine> Distinta Signorina</addrLine>
+                                <addrLine>
+                                    <persName ref="#AT">
+                                        <forename>Antonietta</forename>
+                                        <surname> Turtura </surname>
+                                    </persName>
+                                </addrLine>
+
+                                <addrLine>Via
+                                    <persName xml:id="GR">
+                                        <forename> Girolamo </forename>
+                                        <surname>Rossi </surname>
+                                    </persName>
+                                        <num> 60 </num>
+                                </addrLine>
+
+                                <addrLine>
+                                    <placeName ref="#RV">Ravenna</placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div xml:id="printedLines50">
+                    <p xml:id="stmp50">
+                        <lb/>
+                        Made in <country>France</country>
+                    </p>
+                </div>
+            </div>
+
+        </body>
+    </text>
+
+    <facsimile>
+        <surface xml:id="fronte50" type="fimg">
+            <graphic url='./7694-050/7694-050F.jpg' />
+        </surface>
+
+        <surface xml:id="retro50" type="rimg">
+            <graphic url='./7694-050/7694-050R.jpg'  />
+        </surface>
+    </facsimile>
+
+</TEI>

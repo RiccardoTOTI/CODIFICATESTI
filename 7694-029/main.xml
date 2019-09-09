@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO  -->
+                <title type="t1">La Spezia - Viale Mazzini</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI" type="t2"> Unipi </orgName>
+                </publisher>
+            </publicationStmt>
+            
+            <!-- NOTE -->
+            <notesStmt xml:id="note29">
+                <note>Non è presente la data di stampa della cartolina.</note>
+                <note>Non sono presenti né il francobollo, né l'annullo postale.</note>
+                <note>La cartolina non ha viaggiato, risulta quindi conforme all'originale. Non è stata danneggiata e non è stato aggiunto materiale scritto successivamente.</note>
+                <note>Dal contenuto della cartolina non è possibile reperire alcune informazioni personali sul Mittente, né sul Destinatario.</note>
+                <note>Il fronte della cartolina rappresenta un'immagine in bianco e nero del Viale Mazzini di La Spezia.</note>
+		        <note>Il retro della cartolina è vuoto, non riporta nessun messaggio; vi sono solo le indicazioni di stampa e la divisione in settori.</note>
+            </notesStmt>
+              
+            <!-- COMPILAZIONE -->
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#LS">La Spezia - Viale Mazzini</title>
+                    <publisher>Edizioni Cavalca</publisher>
+                    <pubPlace ref="#LS">La Spezia</pubPlace>
+                </bibl>
+
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <idno>7694_029_001/002</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+
+		            <!--CONDIZIONI FISICHE-->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <material>Carta</material>
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                </msDesc>
+
+
+                <listPlace>
+                    <place xml:id="LS">
+                        <placeName>La Spezia</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">La Spezia</district>
+                        <district type="provincia">SP</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+
+            </sourceDesc>
+        </fileDesc>    
+
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>
+                        <list>
+                            <item>
+                                <choice xml:id="Ediz">
+                                    <reg type="inter">Edizione</reg>
+                                    <abbr type="orig"> Ediz.</abbr>
+                                </choice>
+                            </item>
+                            <item>
+                                <choice xml:id="Stab">
+                                    <reg type="inter">Stabilimento</reg>
+                                    <abbr type="orig"> Stab.</abbr>
+                                </choice>
+                            </item>
+                        </list>
+                    </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+
+    </teiHeader>
+
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina29">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="frontedesc29">
+                <figure>
+                    <figDesc>Il fronte ritrae uno scorcio del litorale nel Viale Mazzini, a La Spezia, in bianco e nero.
+                                Sulla sinistra è riconoscibile la tipica vegetazione marina, con palmeti che costeggiano la strada
+                                del litorale. In mezzo alla strada sono riconoscibili delle persone che passeggiano, una di esse in 
+                                vestiti marinaretti in primo piano, una persona in bicicletta ed anche un'autovettura in lontananza. 
+                                Infine sulla destra vi sono palazzi e villette in mattoni, con finistre e balconi a vista; 
+                                un'architettura in stile anni '50, con annessi grandi cancelli e bei giardini. Il cielo è apparentemente sereno, 
+                                vi è qualche nuvola, ma è possibile affermare che si tratti di una bella giornata soleggiata, come dimostrano
+                                le ombre dei palmeti proiettate lungo la strada. 
+                    </figDesc>
+                    <head>Viale Mazzini - La Spezia</head>
+                </figure>
+            </div>
+                
+            <div type="retro">
+                <div xml:id="id29">
+                    <p>
+                        <num>
+                            <idno> 29 </idno>
+                        </num>
+                    </p>
+                </div>
+
+                <div type="message">
+                    <div xml:id="mainTextmessage29" type="grasso">
+                        <p><lb/>Testo mancante.</p>
+                    </div>    
+                </div>
+
+                <div xml:id="printedLines29">
+                    <p xml:id="stab29">
+                        <lb/>
+                            <abbr>Stab. <ptr target="#Stab"/></abbr>Grafico 
+                            <persName xml:id="CC">Cesare Capello</persName>
+                            <placeName xml:id="MI">Milano </placeName>
+                    </p>
+
+                    <p rend="vertical" xml:id="ediz29">
+                        <lb/>
+                            <abbr>Ediz.<ptr target="#Ediz"/></abbr> Cavalca - 
+                            <placeName ref="#LS">La Spezia</placeName>
+                    </p>
+                </div>
+
+            </div>
+
+        </body>
+    </text>
+
+    <facsimile>
+        <surface xml:id="fronte29" type="fimg">
+            <graphic  url='./7694-029/7694-029F.jpg' />
+        </surface>
+
+        <surface xml:id="retro29" type="rimg">
+            <graphic url='./7694-029/7694-029R.jpg'  />
+        </surface>
+    </facsimile>
+
+</TEI>
